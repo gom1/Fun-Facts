@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFact() {
-        funFactLabel.text = factProvider.randomFact()
+        funFactLabel.text = factProvider.randomFact(currentFact: funFactLabel.text!)
     }
 
 }
