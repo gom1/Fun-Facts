@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,35 +19,23 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you Know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6I-Vy-bLY">
-                                <rect key="frame" x="82" y="127" width="211.5" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you Know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6I-Vy-bLY">
+                                <rect key="frame" x="54.5" y="90" width="211.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DDO-oV-xoO">
-                                <rect key="frame" x="36" y="203" width="303" height="314"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Holder for Facts" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09U-JF-5cm">
-                                        <rect key="frame" x="10" y="10" width="283" height="294"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.47838502589999998" green="0.83744335169999995" blue="0.63285024720000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="09U-JF-5cm" secondAttribute="bottom" constant="10" id="6Xx-gh-2m6"/>
-                                    <constraint firstItem="09U-JF-5cm" firstAttribute="leading" secondItem="DDO-oV-xoO" secondAttribute="leading" constant="10" id="90B-uF-v5h"/>
-                                    <constraint firstAttribute="trailing" secondItem="09U-JF-5cm" secondAttribute="trailing" constant="10" id="QV9-iQ-Pgh"/>
-                                    <constraint firstItem="09U-JF-5cm" firstAttribute="top" secondItem="DDO-oV-xoO" secondAttribute="top" constant="10" id="lD5-R5-HDz"/>
-                                </constraints>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Holder for Facts" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09U-JF-5cm">
+                                <rect key="frame" x="46" y="186" width="228" height="195"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zX6-9K-0YR">
-                                <rect key="frame" x="101.5" y="547" width="172" height="38"/>
+                                <rect key="frame" x="74" y="430" width="172" height="38"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
@@ -61,14 +49,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.47838502591256066" green="0.83744335174560547" blue="0.63285024723533601" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="DDO-oV-xoO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="1UD-L7-qVz"/>
-                            <constraint firstItem="zX6-9K-0YR" firstAttribute="top" secondItem="09U-JF-5cm" secondAttribute="bottom" constant="40" id="Fky-LS-OMT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="09U-JF-5cm" secondAttribute="bottom" constant="187" id="01B-Bk-YLa"/>
                             <constraint firstItem="U6I-Vy-bLY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H2U-aW-yjp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DDO-oV-xoO" secondAttribute="bottom" constant="150" id="Ud0-EJ-Evl"/>
+                            <constraint firstItem="09U-JF-5cm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Poo-nu-7PE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="09U-JF-5cm" secondAttribute="trailing" constant="30" id="SQO-Ew-syc"/>
                             <constraint firstItem="zX6-9K-0YR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gK7-4Y-g5M"/>
-                            <constraint firstItem="DDO-oV-xoO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="183" id="nmk-NF-J4s"/>
-                            <constraint firstItem="09U-JF-5cm" firstAttribute="top" secondItem="U6I-Vy-bLY" secondAttribute="bottom" constant="50" id="u9s-nY-bTC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DDO-oV-xoO" secondAttribute="trailing" constant="20" id="zyk-Sx-jz3"/>
+                            <constraint firstItem="U6I-Vy-bLY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="mPI-Je-bXo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zX6-9K-0YR" secondAttribute="bottom" constant="100" id="s8K-Gn-VYw"/>
+                            <constraint firstItem="09U-JF-5cm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="166" id="tYp-lB-YiO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -77,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
 </document>

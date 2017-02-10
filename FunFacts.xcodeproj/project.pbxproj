@@ -15,6 +15,8 @@
 		3D6AA7D41E4A60B100A469E3 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AA7D31E4A60B100A469E3 /* FunFactsTests.swift */; };
 		3D6AA7DF1E4A60B100A469E3 /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AA7DE1E4A60B100A469E3 /* FunFactsUITests.swift */; };
 		3D6AA7ED1E4A69B100A469E3 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AA7EC1E4A69B100A469E3 /* FactProvider.swift */; };
+		3D6AA8E21E4DA05B00A469E3 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AA8E11E4DA05B00A469E3 /* BackgroundColorProvider.swift */; };
+		3D6AA8E31E4DA05B00A469E3 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AA8E11E4DA05B00A469E3 /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		3D6AA7DE1E4A60B100A469E3 /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		3D6AA7E01E4A60B100A469E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D6AA7EC1E4A69B100A469E3 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		3D6AA8E11E4DA05B00A469E3 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				3D6AA7C01E4A60B100A469E3 /* ViewController.swift */,
 				3D6AA7C21E4A60B100A469E3 /* Main.storyboard */,
 				3D6AA7EC1E4A69B100A469E3 /* FactProvider.swift */,
+				3D6AA8E11E4DA05B00A469E3 /* BackgroundColorProvider.swift */,
 				3D6AA7C51E4A60B100A469E3 /* Assets.xcassets */,
 				3D6AA7C71E4A60B100A469E3 /* LaunchScreen.storyboard */,
 				3D6AA7CA1E4A60B100A469E3 /* Info.plist */,
@@ -267,6 +271,7 @@
 			files = (
 				3D6AA7C11E4A60B100A469E3 /* ViewController.swift in Sources */,
 				3D6AA7BF1E4A60B100A469E3 /* AppDelegate.swift in Sources */,
+				3D6AA8E21E4DA05B00A469E3 /* BackgroundColorProvider.swift in Sources */,
 				3D6AA7ED1E4A69B100A469E3 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6AA8E31E4DA05B00A469E3 /* BackgroundColorProvider.swift in Sources */,
 				3D6AA7D41E4A60B100A469E3 /* FunFactsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

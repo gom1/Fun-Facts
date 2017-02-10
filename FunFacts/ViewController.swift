@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var funFactLabel: UILabel!
     
     let factProvider = FactProvider()
-    
+    let backgroundColorProvider = BackgroundColorProvider()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +27,8 @@ class ViewController: UIViewController {
 
     @IBAction func showFact() {
         funFactLabel.text = factProvider.randomFact(currentFact: funFactLabel.text!)
+        view.backgroundColor = backgroundColorProvider.randomColor(view.backgroundColor!)
+        
     }
 
 }
